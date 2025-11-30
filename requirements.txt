@@ -1,0 +1,20 @@
+# Existing libraries
+chroma-hnswlib==0.7.6
+chromadb==0.5.11
+streamlit==1.37.0
+openai
+langdetect==1.0.9
+PyMuPDF==1.24.9
+PyMuPDFb==1.24.9
+
+# Updated for Groq support
+langchain>=0.3.9
+langchain-core>=0.3.15
+
+# Embeddings compatibility
+torch==2.2.0           # CPU/GPU support
+transformers==4.38.2
+tokenizers==0.22.1
+sentence-transformers==2.2.2
+
+# Direct Groq API
