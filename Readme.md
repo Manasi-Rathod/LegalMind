@@ -1,4 +1,4 @@
-# ⚖️ **LawGlance: AI-Powered Legal Assistant**
+# ⚖️ **LegalMind: AI-Powered Legal Assistant**
 
 [![GitHub stars](https://img.shields.io/github/stars/lawglance/lawglance?style=social)](https://github.com/lawglance/lawglance/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/lawglance/lawglance?style=social)](https://github.com/lawglance/lawglance/forks)
@@ -11,9 +11,7 @@
 
 ### *Bridging the Gap Between People and Legal Access*  🌍
 
-🌐 **Website:** [LawGlance](https://lawglance.com/)
-
-**LawGlance** is a free, open-source, people-centric initiative 💡 designed to make legal guidance accessible to everyone. Using **AI-powered Retriever-Augmented Generation (RAG)**, **LawGlance** delivers quick, accurate legal support tailored to your needs, whether you're seeking information as a layperson or a professional.
+**LegalMind** is a free, open-source, people-centric initiative 💡 designed to make legal guidance accessible to everyone. Using **AI-powered Retriever-Augmented Generation (RAG)**, **LegalMind** delivers quick, accurate legal support tailored to your needs, whether you're seeking information as a layperson or a professional.
 
 > 🛡️ **Mission:** “Justice should be accessible to everyone. LawGlance ensures that no one is left behind when it comes to legal knowledge.”
 
@@ -36,13 +34,13 @@ LawGlance currently supports the following laws, with plans to expand internatio
 - **The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013**
 
 
-Originally launched as [Niyam SahaAI](https://github.com/niyam-sahaai/niyam-sahaai), **LawGlance** aims to cover legal systems from different countries in the near future.
+Originally launched as [Niyam SahaAI](https://github.com/niyam-sahaai/niyam-sahaai), **LegalMind** aims to cover legal systems from different countries in the near future.
 
 ---
 
 ## 🎥 **Video Tutorial**
 
-Curious how **LawGlance** works? Watch this detailed tutorial!
+Curious how **LegalMind** works? Watch this detailed tutorial!
 
 [![Niyam SahaAI Tutorial](https://raw.githubusercontent.com/lawglance/lawglance/refs/heads/main/docs/Lawglance_youtube_video_thumbnail.png)](https://www.youtube.com/watch?v=sWpLEApQtvE "Niyam SahaAI Tutorial")
 
@@ -65,11 +63,11 @@ Curious how **LawGlance** works? Watch this detailed tutorial!
 ## 💻 **Developer Quick Start Guide**
 ---   
 
-Ready to get started? Follow these simple steps to set up **LawGlance** on your machine:
+Ready to get started? Follow these simple steps to set up **LegalMind** on your machine:
 
 1. **Clone the Repository** 🌀
     ```bash
-    git clone https://github.com/lawglance/lawglance.git
+    git clone https://github.com/lawglance/legalmind.git
     ```
 
 2. **Install uv** 📂
@@ -152,7 +150,7 @@ LawGlance uses Redis to cache chat history and LLM responses for faster, scalabl
     ```
     You should see: ```PONG```
 5. **No Additional Python Setup Needed**  
-  - The LawGlance backend automatically connects to Redis at `redis://localhost:6379/0`.
+  - The LegalMind backend automatically connects to Redis at `redis://localhost:6379/0`.
   - If you want to use a different host or port, update the `redis_url` parameter in your code.
    Redis caching is optional for local development but **highly recommended** for production deployments to ensure fast and reliable chat experiences.
 ---
@@ -201,4 +199,4 @@ We are always looking for contributors! Whether you want to help with developmen
 
 ---
 
-**LawGlance** is more than just an AI tool—it's a movement to democratize access to legal knowledge for everyone. Together, let’s make justice truly accessible! ✨
+**LegalMind** is more than just an AI tool—it's a movement to democratize access to legal knowledge for everyone. Together, let’s make justice truly accessible! ✨
